@@ -1,0 +1,16 @@
+how to add a local file to master repository
+first of all copy url link of your github repository
+and then add a remote by using following command
+:git remote add remote_name <github_repository_URL>
+
+after that add all the files which u want to push into github by following command
+
+:git add .-->addes all files in the local directory to statging 
+: git add <filename.ext>- addes the given file for the stging
+: git log --> this will show all commits that you done till now
+after the adding the files for staging you have to commit the files which are in staging  to commit please enter the coomand given below
+
+: git commit -m "<message>"
+after commiting the files then you can push the files to the online repository
+to push the files to online repository command is 
+: git push <remote name> master
